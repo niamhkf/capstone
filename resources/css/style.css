@@ -1,0 +1,55 @@
+/* Universal Styles */
+
+html {
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+
+
+}
+
+/* Navigation bar */
+
+nav{
+  padding: 1rem 1.5rem;
+  display:flex;
+  align-items: center;
+  color: darkgray;
+
+}
+
+nav ul li{
+  display:inline;
+  padding-left: 1rem;
+  width:50rem;
+  color:black;
+}
+
+.name{
+  padding-right: 25rem;
+  height:2rem;
+  position:relative;
+  top:.5rem;
+}
+
+strong{
+  font-weight: bold;
+  color:black;
+}
+
+
+/* Banner */
+
+
+/* Information section */
+
+
+/* Courses section */
+
+
+/* Thesis secion */
+
+
+/* Footer */
