@@ -67,7 +67,7 @@ strong{
   width:60%;
 }
 #banner{
-    width:90%;
+    width:100%;
     padding-right: 1.5rem;
 }
 .banner .text{
@@ -76,16 +76,24 @@ strong{
   justify-content:center;
   flex-direction: column;
 }
+
+.banner .text h1{
+    padding-left:1.5rem;
+  }
+
 .banner .text h2{
   padding-top: 2rem;
   padding-bottom: 2rem;
-
+  padding-left:1.5rem;
 }
+
+
 .start-button{
   text-align: center;
   background-color: rgb(74, 74, 74);
   padding-top:1rem;
   padding-bottom:1rem;
+  margin-left: 1.5rem;
   color: white;
   width:75%;
 }
@@ -102,7 +110,7 @@ strong{
 #information-main{
   padding-bottom: :2rem;
   padding-right: 1.5rem;
-  width:90%;
+  width:97%;
 }
 
 .container-left{
@@ -111,6 +119,7 @@ strong{
   justify-content:flex-start;
   align-items:stretch;
   width:60%;
+  padding-right: 1.5rem;
 }
 .container-left h1{
   padding-top: 1.5rem;
@@ -123,9 +132,8 @@ strong{
 .container-right{
 display:block;
   width:40%;
-
-
 }
+
 .orientation,
 .campus,
 .guest{
@@ -136,8 +144,6 @@ display:block;
   border-bottom:1px solid lightgray;
   padding:1rem;
 }
-
-
 
 .guest{
   background-color: rgb(216, 216, 216);
@@ -150,7 +156,6 @@ display:block;
 .guest .image{
   width: 35%
 }
-
 
 .link{
   color:rgb(110,180,255);
