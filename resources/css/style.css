@@ -301,5 +301,19 @@ display:block;
 }
 
 
-
 /* Footer */
+
+footer {
+  padding: 1rem 1.5rem;
+  display:inline-flex;
+}
+
+footer span{
+  padding-right: 49rem;
+}
+
+footer ul li{
+  display:inline;
+  padding-left: .5rem;
+
+}
