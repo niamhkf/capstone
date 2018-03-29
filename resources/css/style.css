@@ -178,47 +178,72 @@ display:block;
 .section-title{
   text-align: center;
   padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 .courses{
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
+  display:inline-flex;
   flex-wrap: wrap;
-  margin: : 2rem; 4.5rem;
-  padding:2rem;
+  margin: 1rem 4.5rem;
+  }
+
+  .software,
+  .computer-art,
+  .design,
+  .data,
+  .business,
+  .marketing{
+    padding:1rem;
+  }
+
+  .software img,
+  .computer-art img,
+  .design img,
+  .data img,
+  .business img,
+  .marketing img{
+  flex-shrink: 2;
+  width:100%;
+  }
+
+  .software,
+  .computer-art,
+  .design,
+  .data,
+  .business,
+  .marketing{
+  width:30%;
+  }
+
+  .software p,
+  .computer-art p,
+  .design p,
+  .data p,
+  .business p,
+  .marketing p{
+    padding-top: 1rem;
+  }
 
 
-}
-.software,
-.computer-art,
-.design,
-.data,
-.business,
-.marketing{
-  display:block;
-  width:50%;
-
-}
-
-.software .image,
-.computer-art .image,
-.design .image,
-.data .image,
-.business .image,
-.marketing .image{
-  width:25%;
-}
-
-.software,
-.computer-art,
-.design,
-.data,
-.business,
-.marketing{
+.software .text,
+.computer-art .text,
+.design .text,
+.data .text,
+.business .text,
+.marketing .text{
+  display:flex;
+  flex-direction: column;
   background-color: white;
-  padding: 1.5rem 1rem;
-  width: 50%;
+  padding-top:1rem;
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
+  padding-right: 6.5rem;
+}
+
+#wider{
+  width:140%;
+}
+
+#longer{
+  padding-bottom: 3.5rem;
 }
 
 
