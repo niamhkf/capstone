@@ -3,11 +3,25 @@
 html {
   font-size: 16px;
   font-family: 'Ubuntu', sans-serif;
+  color: rgb(74, 74, 74);
 }
 
-body {
+p {
+  font-weight: lighter;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 2rem;
 
+}
 
+h1{
+  font-size: 2.25rem;
+  font-weight:bold;
+
+}
+
+h2{
+  font-size:1.25rem;
+  font-weight: bold;
 }
 
 /* Navigation bar */
@@ -22,13 +36,12 @@ nav{
 
 nav ul li{
   display:inline;
-  padding-left: 1rem;
   width:50rem;
-  color:black;
+  padding-left: 1rem;
 }
 
 .name{
-  padding-right: 25rem;
+  padding-right: 40rem;
   height:2rem;
   position:relative;
   top:.5rem;
@@ -41,15 +54,179 @@ strong{
 
 
 /* Banner */
+.banner{
+  background-color: rgb(216, 216, 216);
+  display:inline-flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 4rem;
+}
 
+.banner .image{
+  width:60%;
+}
+#banner{
+    width:90%;
+    padding-right: 1.5rem;
+}
+.banner .text{
+  width:40%;
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+}
+.banner .text h2{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+.start-button{
+  text-align: center;
+  background-color: rgb(74, 74, 74);
+  padding-top:1rem;
+  padding-bottom:1rem;
+  color: white;
+  width:75%;
+}
 
 /* Information section */
 
+.information{
+  display:flex;
+  justify-content: center;
+  align-content: stretch;
+  padding: 2rem 1.5rem;
+}
+
+#information-main{
+  padding-bottom: :2rem;
+  padding-right: 1.5rem;
+  width:90%;
+}
+
+.container-left{
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:stretch;
+  width:60%;
+}
+.container-left h1{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.container-left p{
+  width:90%;
+}
+
+.container-right{
+display:block;
+  width:40%;
+
+
+}
+.orientation,
+.campus,
+.guest{
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-left:1px solid lightgray;
+  border-bottom:1px solid lightgray;
+  padding:1rem;
+}
+
+
+
+.guest{
+  background-color: rgb(216, 216, 216);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.orientation .image,
+.campus .image,
+.guest .image{
+  width: 35%
+}
+
+
+.link{
+  color:rgb(110,180,255);
+  padding-top: 1rem;
+}
+
+ .text{
+  display:flex;
+  flex-direction: column;
+  width:65%;
+  padding-left: 1.5rem;
+}
+
 
 /* Courses section */
+.courses-container{
+  background-color: rgb(216, 216, 216);
+}
+
+.section-title{
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.courses{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: : 2rem; 4.5rem;
+  padding:2rem;
+
+
+}
+.software,
+.computer-art,
+.design,
+.data,
+.business,
+.marketing{
+  display:block;
+  width:50%;
+
+}
+
+.software .image,
+.computer-art .image,
+.design .image,
+.data .image,
+.business .image,
+.marketing .image{
+  width:25%;
+}
+
+.software,
+.computer-art,
+.design,
+.data,
+.business,
+.marketing{
+  background-color: white;
+  padding: 1.5rem 1rem;
+  width: 50%;
+}
+
 
 
 /* Thesis secion */
 
-
+.thesis-container{
+  display:inline-flex;
+}
+.container-video{
+  width:600px;
+}
+.container-small{
+  width:40%;
+}
 /* Footer */
