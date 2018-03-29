@@ -252,11 +252,54 @@ display:block;
 
 .thesis-container{
   display:inline-flex;
+  margin-top: .5rem;
+  padding-bottom: .5rem;
+  border-bottom: solid 1px lightgray;
 }
 .container-video{
-  width:600px;
+  display:flex;
+  flex-direction: column;
+  width:60%;
+  padding: 1.5rem;
+}
+.container-video video{
+  width:100%;
+}
+
+.container-video h2{
+  padding-top: 1.5rem;
 }
 .container-small{
   width:40%;
+  padding-top: 2.5rem;
+  display:block;
 }
+.fisma,
+.NY{
+  display:inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding:1rem;
+}
+
+.fisma{
+  background-color: rgb(216, 216, 216);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.fisma img,
+.NY img{
+  width: 35%
+}
+
+.thesis-text{
+  display:flex;
+  flex-direction: column;
+  width:65%;
+  padding-left: 1.5rem;
+}
+
+
+
 /* Footer */
