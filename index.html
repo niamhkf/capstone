@@ -5,20 +5,33 @@
       <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
       <link rel="stylesheet" type="text/css" href="resources/css/style.css">
       <link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu:300,400,700" rel="stylesheet">
+      <link rel="icon" href="resources/images/favicon.ico" type="image/x-icon">
+
     </head>
     <body>
 
   <!-- Navigation bar -->
-      <nav>
+     <header>
+      <nav class="desktop">
         <img src="resources/images/ic-logo.svg" alt="school logo"/>
         <span class="name"><strong>COLMAR</strong>ACADEMY</span>
-        <ul>
+        <ul role="presentation">
           <li>On campus</li>
           <li>Online</li>
           <li>For companies</li>
           <li>Sign in</li>
         </ul>
        </nav>
+
+       <nav class="mobile">
+         <img src="resources/images/ic-logo.svg" alt="school logo"/>
+         <img src="resources/images/ic-on-campus.svg" alt=""/>
+         <img src="resources/images/ic-online.svg" alt=""/>
+         <img src="resources/images/ic-login.svg" alt=""/>
+       </nav>
+     </header>
+
+
   <!-- Banner -->
        <div class="banner">
          <div class="image">
@@ -27,7 +40,7 @@
          <div class="text">
           <h1>Learn something new everyday</h1>
           <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-          <span class="start-button">Start here</span>
+          <span class="start-button" href="#">Start here</span>
          </div>
        </div>
 
@@ -85,7 +98,7 @@
            <div class="text">
              <h2>Computer art</h2>
              <p>COURSES</p>
-             <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+             <p id="wider">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
            </div>
          </div>
          <div class="design">
