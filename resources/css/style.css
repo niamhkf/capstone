@@ -60,7 +60,7 @@ strong{
   display:none;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1080px) {
 
   .mobile{
     overflow: hidden;
@@ -136,7 +136,7 @@ strong{
   color:darkgray;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1080px) {
   .banner{
     width: 100%;
     height: auto;
@@ -249,7 +249,7 @@ display:block;
   padding-left: 1.5rem;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1080px) {
 
   .information{
     padding:0;
@@ -375,7 +375,7 @@ display:block;
   padding-bottom: 3.5rem;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1080px) {
   .courses-container{
     background-color: white;
   }
@@ -465,7 +465,7 @@ display:block;
   padding-left: 1.5rem;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1080px) {
   .container-small{
     display:none;
   }
@@ -502,7 +502,7 @@ footer ul li{
   padding-left: .5rem;
 
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1080px) {
 footer{
   padding: 1rem;
   width:100%;
